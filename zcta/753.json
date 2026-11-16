@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "753",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "GEOID": "75390" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -96.8425, 32.81598 ], [ -96.83947, 32.81359 ], [ -96.84306, 32.81185 ], [ -96.84555, 32.81443 ], [ -96.8425, 32.81598 ] ] ] } }
+]
+}
