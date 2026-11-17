@@ -1,0 +1,477 @@
+{
+  "source": "U.S. Census Bureau, American Community Survey 2020-2024 5-year estimates, Data Profile tables",
+  "vintage": 2024,
+  "period": "2020-2024",
+  "geography": "ZIP Code Tabulation Area (2020 definitions); key = 5-digit ZCTA, matches GEOID in /zcta files",
+  "generated": "2026-11-17T15:03:58+00:00",
+  "pathPattern": "acs/2024/{zip3}.json",
+  "groups": [
+    {
+      "name": "Population",
+      "colors": [
+        "#fdeef0",
+        "#f4a3ae",
+        "#e31b36",
+        "#7d0f20"
+      ]
+    },
+    {
+      "name": "Income",
+      "colors": [
+        "#f1eff8",
+        "#aaa4d2",
+        "#5d529b",
+        "#1D1740"
+      ]
+    },
+    {
+      "name": "Education",
+      "colors": [
+        "#e6f4f1",
+        "#9fd3c4",
+        "#3f9b86",
+        "#0f5c4d"
+      ]
+    },
+    {
+      "name": "Workforce",
+      "colors": [
+        "#fdf3e1",
+        "#f5cf8a",
+        "#d98b1c",
+        "#8a4b00"
+      ]
+    },
+    {
+      "name": "Housing",
+      "colors": [
+        "#e8f1fb",
+        "#9cc3ea",
+        "#4a86c5",
+        "#1a4b82"
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "totalPopulation",
+      "group": "Population",
+      "label": "Total population",
+      "code": "DP05_0001E",
+      "format": "number",
+      "decimals": 0,
+      "note": "People",
+      "colors": [
+        "#fdeef0",
+        "#f4a3ae",
+        "#e31b36",
+        "#7d0f20"
+      ]
+    },
+    {
+      "id": "medianAge",
+      "group": "Population",
+      "label": "Median age",
+      "code": "DP05_0018E",
+      "format": "number",
+      "decimals": 1,
+      "note": "Years",
+      "colors": [
+        "#fdeef0",
+        "#f4a3ae",
+        "#e31b36",
+        "#7d0f20"
+      ]
+    },
+    {
+      "id": "pop65Plus",
+      "group": "Population",
+      "label": "Population aged 65 and over",
+      "code": "DP05_0024PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of total population",
+      "colors": [
+        "#fdeef0",
+        "#f4a3ae",
+        "#e31b36",
+        "#7d0f20"
+      ]
+    },
+    {
+      "id": "households",
+      "group": "Population",
+      "label": "Total households",
+      "code": "DP02_0001E",
+      "format": "number",
+      "decimals": 0,
+      "note": "Households",
+      "colors": [
+        "#fdeef0",
+        "#f4a3ae",
+        "#e31b36",
+        "#7d0f20"
+      ]
+    },
+    {
+      "id": "avgHouseholdSize",
+      "group": "Population",
+      "label": "Average household size",
+      "code": "DP02_0016E",
+      "format": "number",
+      "decimals": 2,
+      "note": "People per household",
+      "colors": [
+        "#fdeef0",
+        "#f4a3ae",
+        "#e31b36",
+        "#7d0f20"
+      ]
+    },
+    {
+      "id": "medianHouseholdIncome",
+      "group": "Income",
+      "label": "Median household income",
+      "code": "DP03_0062E",
+      "format": "currency",
+      "decimals": 0,
+      "note": "2024 inflation-adjusted dollars",
+      "colors": [
+        "#f1eff8",
+        "#aaa4d2",
+        "#5d529b",
+        "#1D1740"
+      ]
+    },
+    {
+      "id": "meanHouseholdIncome",
+      "group": "Income",
+      "label": "Mean household income",
+      "code": "DP03_0063E",
+      "format": "currency",
+      "decimals": 0,
+      "note": "2024 inflation-adjusted dollars",
+      "colors": [
+        "#f1eff8",
+        "#aaa4d2",
+        "#5d529b",
+        "#1D1740"
+      ]
+    },
+    {
+      "id": "perCapitaIncome",
+      "group": "Income",
+      "label": "Per capita income",
+      "code": "DP03_0088E",
+      "format": "currency",
+      "decimals": 0,
+      "note": "2024 inflation-adjusted dollars",
+      "colors": [
+        "#f1eff8",
+        "#aaa4d2",
+        "#5d529b",
+        "#1D1740"
+      ]
+    },
+    {
+      "id": "income200kPlus",
+      "group": "Income",
+      "label": "Households earning $200,000+",
+      "code": "DP03_0061PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of households",
+      "colors": [
+        "#f1eff8",
+        "#aaa4d2",
+        "#5d529b",
+        "#1D1740"
+      ]
+    },
+    {
+      "id": "povertyRate",
+      "group": "Income",
+      "label": "Population below poverty level",
+      "code": "DP03_0128PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of people for whom poverty is determined",
+      "colors": [
+        "#f1eff8",
+        "#aaa4d2",
+        "#5d529b",
+        "#1D1740"
+      ]
+    },
+    {
+      "id": "hsOrHigher",
+      "group": "Education",
+      "label": "High school graduate or higher",
+      "code": "DP02_0067PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of population 25 and over",
+      "colors": [
+        "#e6f4f1",
+        "#9fd3c4",
+        "#3f9b86",
+        "#0f5c4d"
+      ]
+    },
+    {
+      "id": "bachelorsOrHigher",
+      "group": "Education",
+      "label": "Bachelor's degree or higher",
+      "code": "DP02_0068PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of population 25 and over",
+      "colors": [
+        "#e6f4f1",
+        "#9fd3c4",
+        "#3f9b86",
+        "#0f5c4d"
+      ]
+    },
+    {
+      "id": "graduateDegree",
+      "group": "Education",
+      "label": "Graduate or professional degree",
+      "code": "DP02_0066PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of population 25 and over",
+      "colors": [
+        "#e6f4f1",
+        "#9fd3c4",
+        "#3f9b86",
+        "#0f5c4d"
+      ]
+    },
+    {
+      "id": "laborForceRate",
+      "group": "Workforce",
+      "label": "Labor force participation",
+      "code": "DP03_0002PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of population 16 and over",
+      "colors": [
+        "#fdf3e1",
+        "#f5cf8a",
+        "#d98b1c",
+        "#8a4b00"
+      ]
+    },
+    {
+      "id": "unemploymentRate",
+      "group": "Workforce",
+      "label": "Unemployment rate",
+      "code": "DP03_0009PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of civilian labor force",
+      "colors": [
+        "#fdf3e1",
+        "#f5cf8a",
+        "#d98b1c",
+        "#8a4b00"
+      ]
+    },
+    {
+      "id": "workFromHome",
+      "group": "Workforce",
+      "label": "Workers who work from home",
+      "code": "DP03_0024PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of workers 16 and over",
+      "colors": [
+        "#fdf3e1",
+        "#f5cf8a",
+        "#d98b1c",
+        "#8a4b00"
+      ]
+    },
+    {
+      "id": "meanCommute",
+      "group": "Workforce",
+      "label": "Mean commute time",
+      "code": "DP03_0025E",
+      "format": "number",
+      "decimals": 1,
+      "note": "Minutes (workers not working from home)",
+      "colors": [
+        "#fdf3e1",
+        "#f5cf8a",
+        "#d98b1c",
+        "#8a4b00"
+      ]
+    },
+    {
+      "id": "empFinanceRealEstate",
+      "group": "Workforce",
+      "label": "Employed in finance, insurance and real estate",
+      "code": "DP03_0040PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of employed civilians 16 and over",
+      "colors": [
+        "#fdf3e1",
+        "#f5cf8a",
+        "#d98b1c",
+        "#8a4b00"
+      ]
+    },
+    {
+      "id": "empProfessional",
+      "group": "Workforce",
+      "label": "Employed in professional, scientific and management",
+      "code": "DP03_0041PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of employed civilians 16 and over",
+      "colors": [
+        "#fdf3e1",
+        "#f5cf8a",
+        "#d98b1c",
+        "#8a4b00"
+      ]
+    },
+    {
+      "id": "empManufacturing",
+      "group": "Workforce",
+      "label": "Employed in manufacturing",
+      "code": "DP03_0035PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of employed civilians 16 and over",
+      "colors": [
+        "#fdf3e1",
+        "#f5cf8a",
+        "#d98b1c",
+        "#8a4b00"
+      ]
+    },
+    {
+      "id": "empTransportation",
+      "group": "Workforce",
+      "label": "Employed in transportation, warehousing and utilities",
+      "code": "DP03_0038PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of employed civilians 16 and over",
+      "colors": [
+        "#fdf3e1",
+        "#f5cf8a",
+        "#d98b1c",
+        "#8a4b00"
+      ]
+    },
+    {
+      "id": "empRetail",
+      "group": "Workforce",
+      "label": "Employed in retail trade",
+      "code": "DP03_0037PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of employed civilians 16 and over",
+      "colors": [
+        "#fdf3e1",
+        "#f5cf8a",
+        "#d98b1c",
+        "#8a4b00"
+      ]
+    },
+    {
+      "id": "housingUnits",
+      "group": "Housing",
+      "label": "Total housing units",
+      "code": "DP04_0001E",
+      "format": "number",
+      "decimals": 0,
+      "note": "Units",
+      "colors": [
+        "#e8f1fb",
+        "#9cc3ea",
+        "#4a86c5",
+        "#1a4b82"
+      ]
+    },
+    {
+      "id": "vacantShare",
+      "group": "Housing",
+      "label": "Vacant housing units",
+      "code": "DP04_0003PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of housing units",
+      "colors": [
+        "#e8f1fb",
+        "#9cc3ea",
+        "#4a86c5",
+        "#1a4b82"
+      ]
+    },
+    {
+      "id": "ownerOccupied",
+      "group": "Housing",
+      "label": "Owner-occupied homes",
+      "code": "DP04_0046PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of occupied housing units",
+      "colors": [
+        "#e8f1fb",
+        "#9cc3ea",
+        "#4a86c5",
+        "#1a4b82"
+      ]
+    },
+    {
+      "id": "renterOccupied",
+      "group": "Housing",
+      "label": "Renter-occupied homes",
+      "code": "DP04_0047PE",
+      "format": "percent",
+      "decimals": 1,
+      "note": "% of occupied housing units",
+      "colors": [
+        "#e8f1fb",
+        "#9cc3ea",
+        "#4a86c5",
+        "#1a4b82"
+      ]
+    },
+    {
+      "id": "medianHomeValue",
+      "group": "Housing",
+      "label": "Median home value",
+      "code": "DP04_0089E",
+      "format": "currency",
+      "decimals": 0,
+      "note": "Owner-occupied units, 2024 inflation-adjusted dollars",
+      "colors": [
+        "#e8f1fb",
+        "#9cc3ea",
+        "#4a86c5",
+        "#1a4b82"
+      ]
+    },
+    {
+      "id": "medianGrossRent",
+      "group": "Housing",
+      "label": "Median gross rent",
+      "code": "DP04_0134E",
+      "format": "currency",
+      "decimals": 0,
+      "note": "Per month, renter-occupied units paying rent, 2024 inflation-adjusted dollars",
+      "colors": [
+        "#e8f1fb",
+        "#9cc3ea",
+        "#4a86c5",
+        "#1a4b82"
+      ]
+    }
+  ]
+}
